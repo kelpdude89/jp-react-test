@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/kelpdude89/jp-react-test/static/css/main.276c1e29.css",
+    "main.js": "/kelpdude89/jp-react-test/static/js/main.64ebd802.js",
+    "static/media/gyat.jpg": "/kelpdude89/jp-react-test/static/media/gyat.cddb246a0db29be41c36.jpg",
+    "index.html": "/kelpdude89/jp-react-test/index.html",
+    "main.276c1e29.css.map": "/kelpdude89/jp-react-test/static/css/main.276c1e29.css.map",
+    "main.64ebd802.js.map": "/kelpdude89/jp-react-test/static/js/main.64ebd802.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.276c1e29.css",
+    "static/js/main.64ebd802.js"
+  ]
+}
