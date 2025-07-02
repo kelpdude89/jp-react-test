@@ -1,17 +1,54 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from "react";
+import ReactDom from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+const el = document.querySelector('#root');
+const root = ReactDom.createRoot(el);
+
+function App() {
+
+    const refresh = () => {
+        window.location.reload();
+    }
+    
+    return (
+
+        <body class="bg-[url('gyat.jpg')] bg-contain bg-center h-screen transition-all duration-500">
+
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <div className="h-screen flex flex-col justify-center items-center">
+            <div className="relative -translate-y-40 text-2xl font-bold underline">
+                <p>hello arthur and</p>
+            </div>
+            <div className="relative -translate-y-40 text 2xl font-thin"><p>philip goon mobile</p></div>
+        
+
+        
+            <button onClick={refresh} class='px-10 py-5 text-xl bg-violet-600 hover:bg-violet-900 text-white rounded-full hover:text-gray-400 cursor-grab active:cursor-grabbing hover:ring-8 hover:ring-violet-400 active:ring-red-600'>gokce is cool</button>
+        </div>
+
+        {/* <script>
+            const body = document.getElementById('body');
+            const button = document.getElementById('multiplyBtn');
+
+            let isMultiplied = false;
+
+            button.addEventListener('click', () => {
+                if (!isMultiplied) {
+                    body.classList.remove('bg-contain', 'bg-center');
+                    body.classList.add('bg-repeat', 'bg-[length:200px_200px]');
+                } else {
+                    body.classList.remove('bg-repeat', 'bg-[length:200px_200px]');
+                    body.classList.add('bg-contain', 'bg-center');
+                }
+                isMultiplied = !isMultiplied;
+            });
+        </script> */}
+
+        </body>
+
 );
+}
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+root.render(<App />);
