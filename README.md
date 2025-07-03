@@ -1,19 +1,19 @@
-# 🧪 React Testing Website
+# JP's React Testing Website
 
 This is a **non-production React project** built purely for testing, debugging, and experimenting with features.  
 It is **not intended** for public release, polished presentation, or stable use.
 
 ---
 
-## 🚫 Disclaimer
+## Disclaimer
 
 - This app is **unfinished** and **not meant to look or work properly**.
 - You may find broken layouts, placeholder text, missing content, and chaotic styles.
-- Stability is **not guaranteed**. Expect weird behavior. That’s the point.
+- Stability is **not guaranteed**. Expect weird behavior.
 
 ---
 
-## 🧑‍💻 Purpose
+## Purpose
 
 - Quick prototyping
 - Component and hook testing
