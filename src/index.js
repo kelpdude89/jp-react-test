@@ -7,15 +7,13 @@ const root = ReactDom.createRoot(el);
 
 function App() {
 
-    const refresh = () => {
-        window.location.reload();
-    }
+    const refresh = () => { window.location.reload(); }
     
     return (
 
         <body class="bg-[url('gyat.jpg')] bg-contain bg-center h-screen transition-all duration-500">
 
-        <script src="https://cdn.tailwindcss.com"></script>
+        {/* <script src="https://cdn.tailwindcss.com"></script> */}
 
         <div className="h-screen flex flex-col justify-center items-center">
             <div className="relative -translate-y-40 text-2xl font-bold underline">
