@@ -1,7 +1,7 @@
 {
   "name": "my-react-app",
   "version": "0.1.0",
-  "homepage": "https://github.com/kelpdude89/jp-react-test",
+  "homepage": "https://kelpdude89.github.io/jp-react-test",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
