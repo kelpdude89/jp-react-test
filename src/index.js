@@ -24,6 +24,9 @@ function App() {
 
         
             <button onClick={refresh} class='px-10 py-5 text-xl bg-violet-600 hover:bg-violet-900 text-white rounded-full hover:text-gray-400 cursor-grab active:cursor-grabbing hover:ring-8 hover:ring-violet-400 active:ring-red-600'>gokce is cool</button>
+
+            <p className="relative translate-y-24 text-5xl font-extrabold text-red-500">Briggs is touchable</p>
+
         </div>
 
         {/* <script>
