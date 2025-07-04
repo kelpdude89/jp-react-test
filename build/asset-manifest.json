@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/jp-react-test/static/css/main.3eb0485e.css",
-    "main.js": "/jp-react-test/static/js/main.64ebd802.js",
+    "main.css": "/jp-react-test/static/css/main.89d763f7.css",
+    "main.js": "/jp-react-test/static/js/main.e5097fc7.js",
     "static/media/gyat.jpg": "/jp-react-test/static/media/gyat.cddb246a0db29be41c36.jpg",
     "index.html": "/jp-react-test/index.html",
-    "main.3eb0485e.css.map": "/jp-react-test/static/css/main.3eb0485e.css.map",
-    "main.64ebd802.js.map": "/jp-react-test/static/js/main.64ebd802.js.map"
+    "main.89d763f7.css.map": "/jp-react-test/static/css/main.89d763f7.css.map",
+    "main.e5097fc7.js.map": "/jp-react-test/static/js/main.e5097fc7.js.map"
   },
   "entrypoints": [
-    "static/css/main.3eb0485e.css",
-    "static/js/main.64ebd802.js"
+    "static/css/main.89d763f7.css",
+    "static/js/main.e5097fc7.js"
   ]
 }
